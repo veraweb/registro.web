@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #e3fdfd, #cbf1f5);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .registro-container {
+    background-color: #ffffff;
+    padding: 30px 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 400px;
+    max-width: 90%;
+  }
+  
+  .logo {
+    text-align: center;
+    font-size: 26px;
+    color: #00796b;
+    margin-bottom: 10px;
+  }
+  
+  .logo span {
+    color: #009688;
+    font-weight: bold;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 15px;
+    color: #444;
+    font-weight: bold;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #81d4fa;
+    border-radius: 8px;
+    outline: none;
+    margin-top: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  form input:focus {
+    border-color: #0288d1;
+    background-color: #f0fbff;
+  }
+  
+  button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px;
+    background-color: #009688;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #00796b;
+  }
+  
+  .usuarios-registrados {
+    margin-top: 30px;
+    background-color: #f0fafa;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #009688;
+  }
+  
+  .usuarios-registrados h3 {
+    margin-top: 0;
+    color: #00796b;
+  }
+  
+  #listaUsuarios {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #listaUsuarios li {
+    background-color: #e0f2f1;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+  }
+  
